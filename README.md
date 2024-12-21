@@ -1,9 +1,9 @@
-Step 0: Environment \\
+Step 0: Environment 
 Clone github
 conda env create -f environment.yml
 or
 conda env create -f cross_platform_environment.yml
-The latter may work 
+The latter may work better across platforms
 
 Step 1: Encoding
 Sample code to open the template datum:
