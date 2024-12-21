@@ -76,6 +76,7 @@ CMD := bash submit1.sh
 
 run-layered-sig-encoding:
 	mkdir -p logs 
+	mkdir -p results
 	for layer in $(LAYERS); do \
 		$(CMD) code/$(FILE).py \
 			--project-id $(PRJCT_ID) \
