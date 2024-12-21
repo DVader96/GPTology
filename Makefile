@@ -103,6 +103,7 @@ verify-encoding:
 	bash code/verify_encoding.sh $(OUT_NAME)
 
 plot-layered-sig-encoding:
+	mkdir -p results/figures
 	$(CMD) code/plot_results.py \
 		--encoding_name $(OUT_NAME) \
 		--num_layers $(NUM_LAYERS); \
